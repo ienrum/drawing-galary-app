@@ -4,7 +4,7 @@
 
 드로잉 갤러리 사이트는 간단한 갤러리 웹 사이트 입니다. 사용자는 작가의 그림을 보고, 구입할수있습니다.
 
-<img src="./homePage.gif"  width="50%" height="50%" >
+<img src="./screenShot/homePage.gif"  width="50%" height="50%" >
 
 ## 주요 기능
 
