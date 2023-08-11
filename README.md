@@ -1,46 +1,23 @@
-# Getting Started with Create React App
+# 드로잉 갤러리 사이트 앱
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 소개
 
-## Available Scripts
+드로잉 갤러리 사이트는 간단한 갤러리 웹 사이트 입니다. 사용자는 작가의 그림을 보고, 구입할수있습니다.
 
-In the project directory, you can run:
+<img src="./homePage.gif"  width="50%" height="50%" >
 
-### `npm start`
+## 주요 기능
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- 구매, 장바구니
+- 작가 블로그 에디터
+- 작품 화면
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 사용된 기술
 
-### `npm test`
+- Front-end: React, css modules, redux(예정),
+- 백엔드: firebase(예정)
+- 배포: firebase(예정)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 개발 배경 및 과정
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+css 그리드를 활용하여 갤러리 화면을 만들었습니다. 화면의 변화에따라 그리드의 열개수가 변화합니다. 이를 위해 repeat 에 auto-fit 을사용하고 auto-flow :dense 를 사용하였습니다.
