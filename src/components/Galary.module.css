@@ -1,0 +1,34 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 1rem;
+  margin: 2rem;
+  grid-auto-flow: dense;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bigImage {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.tallImage {
+  grid-row: span 2;
+  grid-column: span 1;
+}
+
+.longImage {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.smallImage {
+  grid-column: span 1;
+  grid-row: span 1;
+}
